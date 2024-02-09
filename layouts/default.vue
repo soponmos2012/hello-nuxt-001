@@ -2,7 +2,7 @@
     <div class="blackgd">
         <TopBar />
         <Nuxt />
-        <Footer/>
+        <Footer />
     </div>
  
 </template>

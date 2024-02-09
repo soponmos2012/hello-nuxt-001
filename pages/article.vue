@@ -1,16 +1,15 @@
 <template>
     <div>
-        <h1>
-           บทความ
-        </h1>
+        <Article />
     </div>
 </template>
 <script>
+export default {
+  name: 'ChekPage',
 
+}
 </script>
-<style>
-
-</style>
+<style></style>
 
    
     

@@ -1,15 +1,15 @@
 <template>
     <div class="">
         <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.1.2/dist/tailwind.min.css" rel="stylesheet" />
-        <div class="body_content games">
+        <div class="body_content">
             <div class="row group_menu content-center">
-                <div class="col-12 col-lg-3 cursor_pointer active">
+                <div class="col-14 col-lg-7 cursor_pointer active">
                     <img class="large_img" src="/image/allgame.jpg" alt="">
                 </div>
-                <div class="col-6 col-lg-3 cursor_pointer select casino">
+                <div class="col-6 col-lg-7 cursor_pointer select casino">
                     <img src="/image/casino.jpg" alt="">
                 </div>
-                <div class="col-6 col-lg-3 cursor_pointer select slot">
+                <div class="col-6 col-lg-7 cursor_pointer select slot">
                     <img src="/image/slot.jpg" alt="">
                 </div>
             </div>
@@ -25,23 +25,22 @@
                     <div class="margin_casino margin-16px"></div>
                     <div class="sort_casino">
                         <div class="cob_ cursor_pointer example">
-                            <img src="https://sale3.pirate168.com/images/listgame/casino_0.png" alt="">
+                            <img src="/image/playgame/casino_0.png" alt="">
                         </div>
                         <div class="cob_ cursor_pointer example">
-                            <img src="https://sale3.pirate168.com/images/listgame/casino_1.png" alt="">
+                            <img src="/image/playgame/casino_1.png" alt="">
                         </div>
                         <div class="cob_ cursor_pointer example">
-                            <img src="https://sale3.pirate168.com/images/listgame/casino_2.png" alt="">
+                            <img src="/image/playgame/casino_2.png" alt="">
                         </div>
                         <div class="cob_ cursor_pointer example">
-                            <img src="https://sale3.pirate168.com/images/listgame/casino_3.png" alt="">
+                            <img src="/image/playgame/casino_3.png" alt="">
                         </div>
                         <div class="cob_ cursor_pointer example">
-                            <img src="https://sale3.pirate168.com/images/listgame/casino_4.png" alt="">
+                            <img src="/image/playgame/casino_4.png" alt="">
                         </div>
                     </div>
                     <div class="margin-32px large"></div>
-                    <div class="margin-16px mobile"></div>
                     <div class="bg_title_outer slot">
                         <div class="bg_title_inside">
                             <div class="text-gold pentor-bold text-center">สล็อตออนไลน์</div>
@@ -50,39 +49,40 @@
                     <div class="margin_slot margin-16px"></div>
                     <div class="sort_slot">
                         <div class="cob_ cursor_pointer example">
-                            <img src="https://sale3.pirate168.com/images/listgame/slot_0.png" alt="">
+                            <img src="/image/playgame/slot_0.png" alt="">
                         </div>
                         <div class="cob_ cursor_pointer example">
-                            <img src="https://sale3.pirate168.com/images/listgame/slot_1.png" alt="">
+                            <img src="/image/playgame/slot_1.png" alt="">
                         </div>
                         <div class="cob_ cursor_pointer example">
-                            <img src="https://sale3.pirate168.com/images/listgame/slot_2.png" alt="">
+                            <img src="/image/playgame/slot_2.png" alt="">
                         </div>
                         <div class="cob_ cursor_pointer example">
-                            <img src="https://sale3.pirate168.com/images/listgame/slot_3.png" alt="">
+                            <img src="/image/playgame/slot_3.png" alt="">
                         </div>
                         <div class="cob_ cursor_pointer example">
-                            <img src="https://sale3.pirate168.com/images/listgame/slot_4.png" alt="">
+                            <img src="/image/playgame/slot_4.png" alt="">
                         </div>
                         <div class="cob_ cursor_pointer example">
-                            <img src="https://sale3.pirate168.com/images/listgame/slot_5.png" alt="">
+                            <img src="/image/playgame/slot_5.png" alt="">
                         </div>
                         <div class="cob_ cursor_pointer example">
-                            <img src="https://sale3.pirate168.com/images/listgame/slot_6.png" alt="">
+                            <img src="/image/playgame/slot_6.png" alt="">
                         </div>
                         <div class="cob_ cursor_pointer example">
-                            <img src="https://sale3.pirate168.com/images/listgame/slot_7.png" alt="">
+                            <img src="/image/playgame/slot_7.png" alt="">
                         </div>
                         <div class="cob_ cursor_pointer example">
-                            <img src="https://sale3.pirate168.com/images/listgame/slot_8.png" alt="">
+                            <img src="/image/playgame/slot_8.png" alt="">
                         </div>
                         <div class="cob_ cursor_pointer example">
-                            <img src="https://sale3.pirate168.com/images/listgame/slot_9.png" alt="">
+                            <img src="/image/playgame/slot_9.png" alt="">
                         </div>
                         <div class="cob_ cursor_pointer example">
-                            <img src="https://sale3.pirate168.com/images/listgame/slot_10.png" alt="">
+                            <img src="/image/playgame/slot_10.png" alt="">
                         </div>
                     </div>
+                    <div class="margin_slot margin-16px"></div>
                 </div>
             </div>
         </div>
@@ -99,9 +99,11 @@ export default {
 .body_content {
     padding: 0.5rem 20rem 0rem 20rem;
 }
+
 .content-center {
-    justify-content: center!important;
+    justify-content: center !important;
 }
+
 .row {
     --bs-gutter-x: 1.5rem;
     --bs-gutter-y: 0;
@@ -111,15 +113,19 @@ export default {
     margin-right: calc(-0.5 * var(--bs-gutter-x));
     margin-left: calc(-0.5 * var(--bs-gutter-x));
 }
+
 .active {
     filter: unset;
 }
+
 .select {
     filter: saturate(0);
 }
+
 .margin-32px {
     margin-top: 2rem;
 }
+
 .sort_casino {
     display: flex;
     flex-wrap: wrap;
@@ -127,6 +133,7 @@ export default {
     margin-left: -0.5rem;
     margin-top: -1rem;
 }
+
 div.cob_ {
     flex: 0 0 auto;
     max-width: 100%;
@@ -135,9 +142,11 @@ div.cob_ {
     padding-left: 0.3125rem;
     width: 13.3rem;
 }
+
 img {
     max-width: 100%;
 }
+
 .sort_slot {
     display: flex;
     flex-wrap: wrap;
@@ -151,5 +160,11 @@ img {
     -webkit-background-clip: text;
     background-clip: text;
     font-size: 1.5rem;
-  }
+}
+
+.col-lg-7 {
+    flex: 0 0 auto;
+    width: 25%;
+    margin-right: 1.25rem;
+}
 </style>
